@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <h1>Triangle Tracker</h1>
-      <form>
+      <form id="formOne">
         <div class="form-group">
           <label for="firstSide">Side 1:</label>
           <input id="firstSide" class="form-control" type="text">
@@ -23,10 +23,11 @@
           <label for="thirdSide">Side 3:</label>
           <input id="thirdSide" class="form-control" type="text">
         </div>
+        <button type="submit" class="btn">Track my triangle!</button>
       </form>
     </div>
     <div id="triangleResult">
-      <p>These side lengths would create a <span id="triangleType"></span> triangle.</p>
+      <p>These side lengths would create a(n) <span class="triangleType"></span> triangle.</p>
     </div>
   </body>
 </html>
